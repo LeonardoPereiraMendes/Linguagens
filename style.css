@@ -1,0 +1,19 @@
+body {background-color: black;}
+
+    /* Estilos para o contêiner */
+    .container {
+      width: 90%; /* largura do contêiner */
+      margin: 20px auto; /* margem vertical de 20px e centralização horizontal */
+      background-color: #f0f0f0; /* cor de fundo */
+      padding: 20px; /* espaçamento interno */
+      border-radius: 8px; /* bordas arredondadas */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* sombra */
+      } 
+      
+     /* Estilos para o contêiner pai */
+    .container-wrapper {
+      display: flex; /* usar flexbox */
+      justify-content: space-between; /* distribuir os contêineres igualmente */
+      margin: 20px auto; /* margem vertical de 20px e centralização horizontal */
+      max-width: 93%; /* largura máxima do contêiner pai */
+    }
